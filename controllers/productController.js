@@ -38,7 +38,7 @@ exports.list = async (req, res) => {
     });
 
     res.json({
-      message: 'Product list',
+      message: 'Product list api',
       data: products
     });
   } catch (err) {
